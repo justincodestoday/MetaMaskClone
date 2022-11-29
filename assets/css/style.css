@@ -1,0 +1,58 @@
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: lightskyblue;
+}
+
+#headline {
+    font-size: 3em;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    color: lightskyblue;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    #headline {
+        font-size: 2em;
+    }
+
+    #headline-image {
+        display: absolute;
+    }
+
+    #caption {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #partners-headline {
+        font-size: 2.5em;
+    }
+
+    #developers-headline {
+        font-size: 2.5em;
+    }
+
+    #shop-headline {
+        text-align: center;
+        padding-top: 4rem;
+        font-size: 2.5em;
+    }
+
+    #newsletter-headline {
+        font-size: 2em;
+    }
+}
